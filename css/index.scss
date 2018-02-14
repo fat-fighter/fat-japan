@@ -1,0 +1,67 @@
+body {
+	background: #fafafa !important;
+}
+
+#search-section {
+	padding: 100px 0 140px 0;
+	text-align: center;
+	background: {
+		image: url('../img/background.jpg');
+		attachment: fixed;
+		size: cover;
+	}
+	margin-bottom: 70px;
+
+	.title {
+		color: white;
+	}
+
+	input[type=text] {
+		padding: 17px 45px;
+		font-size: 15px;
+		border: 1px solid gainsboro;
+		border-radius: 25px;
+		width: 500px;
+
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+h1.links-heading {
+	text-align: center;
+	font: {
+		family: "Raleway";
+		weight: 300;
+	}
+	margin-bottom: 45px;
+}
+
+#links-section {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+
+	.link-box {
+		text-align: center;
+		flex: 1 1 auto;
+		min-width: 300px;
+		background-color: white;
+		box-shadow: 0 0 20px #e1e1e1;
+		margin: 20px;
+		padding: 100px 0;
+
+		.box-title {
+			font: {
+				family: "Montserrat", sans-serif;
+				size: 23px;
+			}
+			text-transform: uppercase;
+			color: darkslategray;
+			margin-bottom: 10px;
+		}
+
+	}
+}

@@ -1,0 +1,38 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
+
+form {
+  width: 25%;
+  margin: 100px auto 0 auto;
+  padding: 70px 50px 40px 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative; }
+  form input {
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 15px; }
+    form input:focus {
+      outline: none; }
+  form input[type=submit] {
+    background-color: #50449a;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 15px; }
+  form div {
+    height: 80px;
+    width: 80px;
+    background-color: #267ec5;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px); }
+    form div img {
+      height: 50px;
+      margin: 8px 15px; }
+
+/*# sourceMappingURL=admin-login.css.map */

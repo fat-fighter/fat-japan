@@ -1,0 +1,52 @@
+body {
+	background: {
+		image: url("../img/background.jpg");
+		attachment: fixed;
+		size: cover;
+	}
+}
+
+form {
+	width: 25%;
+	margin: 100px auto 0 auto;
+	padding: 70px 50px 40px 50px;
+	background-color: rgba(256, 256, 256, 0.4);
+	position: relative;
+
+	input {
+		width: 100%;
+		padding: 10px 15px;
+		box-sizing: border-box;
+		border: none;
+		font: {
+			family: "Inconsolata", sans-serif;
+			size: 15px;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	input[type=submit] {
+		background-color: #50449a;
+		color: white;
+		font-family: "Montserrat", sans-serif;
+		margin-top: 15px;
+	}
+
+	div {
+		height: 80px;
+		width: 80px;
+		background-color: #267ec5;
+		border-radius: 50%;
+		position: absolute;
+		top: -40px;
+		left: calc(50% - 40px);
+
+		img {
+			height: 50px;
+			margin: 8px 15px;
+		}
+	}
+}

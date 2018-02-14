@@ -1,0 +1,12 @@
+.reference-list {
+  list-style: circle;
+  font-family: "Inconsolata";
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 30px; }
+  .reference-list a {
+    text-decoration: none; }
+    .reference-list a:hover {
+      color: darkslategray; }
+
+/*# sourceMappingURL=reference.css.map */

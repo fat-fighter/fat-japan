@@ -1,0 +1,21 @@
+.calendar {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap; }
+  .calendar > .date, .calendar .day {
+    width: calc(14% - 10px);
+    background-color: white;
+    padding: 40px 5px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    margin: -1px; }
+    .calendar > .date .japanese, .calendar .day .japanese {
+      color: #a28763;
+      font-weight: 500; }
+  .calendar .day {
+    font-weight: 500;
+    background-color: #fcfcfc; }
+  .calendar .date:last-of-type {
+    width: calc(14% - 11px); }
+
+/*# sourceMappingURL=calendar.css.map */

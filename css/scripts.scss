@@ -1,0 +1,39 @@
+.script-table {
+	width: 100%;
+
+	thead td {
+		font-weight: 500;
+		background-color: #fcfcfc;
+		border-color: #d6d6d6;
+		padding: 10px 7px;
+	}
+
+	td {
+		border: 1px solid gainsboro;
+		margin: -1px;
+		background-color: white;
+		text-align: center;
+		padding: 7px;
+
+		&.empty {
+			background-color: rgba(256, 256, 256, 0.4);
+		}
+
+		.sound {
+			color: #a28763;
+			font-weight: 500;
+		}
+		.particle {
+			color: #5e4f39;
+		}
+	}
+}
+
+.image {
+	padding: 30px 0;
+	text-align: center;
+
+	img {
+		max-width: 100%;
+	}
+}

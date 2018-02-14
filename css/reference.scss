@@ -1,0 +1,17 @@
+.reference-list {
+	list-style: circle;
+	font: {
+		family: "Inconsolata";
+		size: 20px;
+	}
+	text-transform: uppercase;
+	line-height: 30px;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			color: darkslategray;
+		}
+	}
+}

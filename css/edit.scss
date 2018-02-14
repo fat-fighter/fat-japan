@@ -1,0 +1,15 @@
+.new-question-block {
+	height: 39px;
+	line-height: 39px;
+	background-color: white;
+	color: darkslateblue;
+	float: right;
+	padding: 0 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: {
+		family: "Inconsolata", sans-serif;
+		size: 17px;
+	}
+	box-shadow: 0 0 4px darkgray;
+}
